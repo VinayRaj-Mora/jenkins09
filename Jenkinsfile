@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        node{
+        node {
             label 'AGENT-1'
         }
     }
@@ -21,16 +21,9 @@ pipeline {
             }
         }
     }
-    post{
+    post {
         always {
-            echo 'I will say hello always'
-            cleanWs()
-        }
-        sucess {
-            echo 'I will say hello sucess'
-        }
-        failure {
-            echo 'I will say hello failuree'
+            echo 'This will always run.'
         }
     }
 }
