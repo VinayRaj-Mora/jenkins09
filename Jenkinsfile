@@ -25,5 +25,11 @@ pipeline {
         always {
             echo 'This will always run.'
         }
+        success {
+            echo 'This will run only if the build succeeds.'
+        }
+        failure {
+            echo 'This will run only if the build fails.'
+        }
     }
 }
