@@ -11,7 +11,7 @@ pipeline {
         timeout(time: 10, unit: 'MINUTES')
         disableConcurrentBuilds()
     }
-    #used to be done ddcsdc
+    #used to be done ddcsdc sdcsc
     parameters {
         string(name: 'PERSON', defaultValue: 'Mr Jenkins', description: 'Who should I say hello to?')
         text(name: 'BIOGRAPHY', defaultValue: '', description: 'Enter some information about the person')
