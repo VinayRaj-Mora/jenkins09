@@ -7,6 +7,7 @@ pipeline {
     environment {
         COURSE = 'Jenkins 09 - Declarative Pipeline'
     }
+    \\try to set output
     options {
         timeout(time: 1, unit: 'MINUTES')
         disableConcurrentBuilds()
