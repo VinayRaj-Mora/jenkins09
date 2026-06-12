@@ -5,7 +5,7 @@ pipeline {
         }
     }
     environment {
-        COURSE = 'Jenkins 09 - Declarative Pipeline'
+        COURSE = 'Jenkins 09 - Declarative Pipelineh'
     }
     options {
         timeout(time: 1, unit: 'MINUTES')
